@@ -1,6 +1,6 @@
 {
   "name": "cerebro-basic-apps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Basic plugin for search and launch applications  with Cerebro app",
   "license": "MIT",
   "repository": "KELiON/cerebro-basic-apps",
@@ -36,7 +36,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.8.0",
-    "babili": "0.0.9",
+    "babili": "0.1.2",
     "chai": "^3.5.0",
     "css-loader": "^0.26.0",
     "mocha": "^3.3.0",
@@ -48,7 +48,6 @@
   "dependencies": {
     "cerebro-tools": "^0.1.0",
     "cerebro-ui": "^0.0.14",
-    "du": "^0.1.0",
-    "react": "^15.4.1"
+    "du": "^0.1.0"
   }
 }

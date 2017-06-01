@@ -24,7 +24,6 @@ const getAppsList = () => {
   const promises = patterns.map(pattern => (
     new Promise((resolve, reject) => {
       glob(pattern, {}, (err, files) => {
-        console.log(err ? err : files)
         return err ? reject(err) : resolve(files)
       })
     })

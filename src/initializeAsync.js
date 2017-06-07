@@ -4,14 +4,13 @@ import path from 'path'
 import fs from 'fs'
 import flatten from 'lodash/flatten'
 import uniq from 'lodash/uniq'
+import { DIRECTORIES, PATTERNS, EXTENSIONS, formatPath,  } from './platform'
 
 const REINDEX_TIME = 30 * 60 * 1000
 const CACHE_FILE = path.join(remote.app.getPath('userData'), 'apps_cache.json')
 const cacheOptions = {
   encoding: 'utf-8'
 }
-
-const { DIRECTORIES, PATTERNS, EXTENSIONS, formatPath,  } = require('./platform')
 
 const getAppsList = () => {
   let patterns = DIRECTORIES.map(dir =>

@@ -5,10 +5,9 @@ import uniq from 'lodash/uniq'
 import uniqBy from 'lodash/uniqBy'
 
 import initialize from './initializeAsync'
+import { openApp, toString } from './platform'
 
 export const initializeAsync = initialize
-
-const { openApp, toString } = require('./platform')
 
 let appsList = []
 

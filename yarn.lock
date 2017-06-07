@@ -769,9 +769,9 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-cerebro-scripts@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/cerebro-scripts/-/cerebro-scripts-0.0.10.tgz#33a21f756cb1f04ba7cb0b447bd34ec182ca3eec"
+cerebro-scripts@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/cerebro-scripts/-/cerebro-scripts-0.0.11.tgz#dfa93b388c2fd44e521fc2b1b06dc369d4da6140"
   dependencies:
     babel-cli "^6.18.0"
     babel-loader "^6.2.8"

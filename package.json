@@ -1,6 +1,6 @@
 {
   "name": "cerebro-basic-apps",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Basic plugin for search and launch applications  with Cerebro app",
   "license": "MIT",
   "repository": "KELiON/cerebro-basic-apps",
@@ -13,10 +13,9 @@
     "node": ">=4"
   },
   "scripts": {
-    "build": "webpack && babili dist -d dist --compact --no-comments",
-    "debug": "./scripts/debug",
-    "debug:windows": "scripts\\debug.bat",
-    "test": "NODE_ENV=test mocha --compilers js:babel-core/register --require ./test/setup.js",
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test",
     "prepublish": "rimraf ./dist && npm run build"
   },
   "main": "dist/index.js",
@@ -28,26 +27,12 @@
     "applications"
   ],
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-loader": "^6.2.8",
-    "babel-node-modules": "0.0.1",
-    "babel-plugin-syntax-jsx": "^6.18.0",
-    "babel-plugin-transform-es2015-classes": "^6.24.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-plugin-transform-react-jsx": "^6.8.0",
-    "babili": "0.1.2",
-    "chai": "^3.5.0",
-    "css-loader": "^0.26.0",
-    "mocha": "^3.3.0",
-    "rimraf": "^2.6.1",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
-    "webpack": "2.5.1"
+    "cerebro-scripts": "^0.0.10",
+    "rimraf": "^2.6.1"
   },
   "dependencies": {
     "cerebro-tools": "^0.1.0",
-    "cerebro-ui": "^0.0.14",
+    "cerebro-ui": "^0.0.15",
     "du": "^0.1.0"
   }
 }

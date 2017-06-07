@@ -23,7 +23,6 @@ class FileDetails extends Component {
     const { path, skipSize, skipName } = this.props
     const { details, size } = this.state
     const { ctime, mtime, atime } = details
-    console.log(details)
     const name = nodePath.basename(path)
     return (
       <div className={styles.fileDetails}>

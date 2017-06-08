@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "cerebro-tools": "^0.1.0",
-    "cerebro-ui": "^0.0.15",
+    "cerebro-ui": "^0.0.16",
     "du": "^0.1.0"
   }
 }

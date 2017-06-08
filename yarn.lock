@@ -799,9 +799,9 @@ cerebro-tools@^0.1.0:
   dependencies:
     memoizee "^0.4.1"
 
-cerebro-ui@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/cerebro-ui/-/cerebro-ui-0.0.15.tgz#41b8eac3e1fae1cf9163e61e156f3aeff4b0b934"
+cerebro-ui@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/cerebro-ui/-/cerebro-ui-0.0.16.tgz#55695c26862ebd9a9e44646feb0b475c208d010e"
   dependencies:
     react "^15.4.2"
     react-dom "^15.4.2"

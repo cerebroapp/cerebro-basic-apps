@@ -16,6 +16,7 @@ export const PATTERNS = [
   '/Applications/!(*.app)/**.app',
   // System preferences
   '/System/Library/PreferencePanes/*.prefPane',
+  path.join(homepath, 'Applications', '*.app'),
 ];
 
 export const EXTENSIONS = ['prefPane', 'app']

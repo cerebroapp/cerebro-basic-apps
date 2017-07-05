@@ -25,7 +25,7 @@ export const fn = ({ term, actions, display }) => {
         subtitle: description || path,
         clipboard: path,
         onKeyDown: (event) => {
-          if (event.ctrlKey && event.keyCode === 82) {
+          if ((event.ctrlKey || event.metaKey) && event.keyCode === 82) {
             // Show application by ctrl+R shortcut
             actions.reveal(path)
             event.preventDefault()

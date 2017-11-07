@@ -12,7 +12,6 @@ export const initializeAsync = initialize
 let appsList = []
 
 export const fn = ({ term, actions, display }) => {
-  // TODO: Ideally, we don't want `app => app.searchString` here, but corresponding change to cerebro-tools is needed, thus let's make it backward-compatible for now (depends on https://github.com/KELiON/cerebro-tools/pull/4)
   const result = search(appsList, term, app => app.searchString)
     .sort((a, b) => (b.selectCount || 0) - (a.selectCount || 0))
     .map(app => {

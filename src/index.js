@@ -12,7 +12,7 @@ export const initializeAsync = initialize
 let appsList = []
 
 export const fn = ({ term, actions, display }) => {
-  const result = search(appsList, term, toString)
+  const result = search(appsList, term, app => app.searchString)
     .sort((a, b) => (b.selectCount || 0) - (a.selectCount || 0))
     .map(app => {
       const { id, path, name, description, icon, exec, source } = app
@@ -44,5 +44,8 @@ export const fn = ({ term, actions, display }) => {
 
 export const onMessage = (apps) => {
   appsList = uniq([...appsList, ...apps])
+  appsList.forEach(app => {
+    app.searchString = toString(app)
+  })
 }
 

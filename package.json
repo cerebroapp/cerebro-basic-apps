@@ -27,7 +27,7 @@
     "applications"
   ],
   "devDependencies": {
-    "cerebro-scripts": "^0.0.11",
+    "cerebro-scripts": "^0.0.20",
     "rimraf": "^2.6.1"
   },
   "dependencies": {

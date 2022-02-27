@@ -31,7 +31,7 @@
   ],
   "devDependencies": {
     "cerebro-scripts": "^0.0.25",
-    "rimraf": "^2.6.3"
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "cerebro-tools": "^0.1.0",

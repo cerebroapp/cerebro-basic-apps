@@ -5,6 +5,8 @@ import flatten from 'lodash/flatten'
 import uniq from 'lodash/uniq'
 import { DIRECTORIES, PATTERNS, EXTENSIONS, formatPath,  } from './platform'
 
+const REINDEX_TIME = 30 * 60 * 1000
+
 const getAppsList = () => {
   let patterns = DIRECTORIES.map(dir =>
     path.join(dir, '**', `*.+(${EXTENSIONS.join('|')})`)

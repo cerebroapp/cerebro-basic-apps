@@ -1,16 +1,9 @@
-import { remote } from 'electron'
 import glob from 'glob'
 import path from 'path'
 import fs from 'fs'
 import flatten from 'lodash/flatten'
 import uniq from 'lodash/uniq'
 import { DIRECTORIES, PATTERNS, EXTENSIONS, formatPath,  } from './platform'
-
-const REINDEX_TIME = 30 * 60 * 1000
-const CACHE_FILE = path.join(remote.app.getPath('userData'), 'apps_cache.json')
-const cacheOptions = {
-  encoding: 'utf-8'
-}
 
 const getAppsList = () => {
   let patterns = DIRECTORIES.map(dir =>
@@ -33,16 +26,9 @@ const getAppsList = () => {
 }
 
 export default (callback) => {
-  fs.exists(CACHE_FILE, (exists) => {
-    if (!exists) return
-    fs.readFile(CACHE_FILE, cacheOptions, (err, json) => {
-      if (!err) callback(JSON.parse(json))
-    })
-  })
 
   const searchApps = () => getAppsList().then(apps => {
     const json = JSON.stringify(apps, null, 2)
-    fs.writeFile(CACHE_FILE, json, cacheOptions)
     callback(apps)
   })
 

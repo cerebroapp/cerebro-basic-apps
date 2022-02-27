@@ -3,12 +3,15 @@
   "version": "1.0.12",
   "description": "Basic plugin for search and launch applications  with Cerebro app",
   "license": "MIT",
-  "repository": "KELiON/cerebro-basic-apps",
+  "repository": "cerebroapp/cerebro-basic-apps",
   "author": {
     "name": "Alexandr Subbotin",
     "email": "kelionweb@gmail.com",
     "url": "asubbotin.ru"
   },
+  "contributors": [
+    "Gustavo Pereira"
+  ],
   "engines": {
     "node": ">=4"
   },

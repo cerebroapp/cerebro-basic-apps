@@ -17,8 +17,8 @@ Search for any application on your machine.
 
 ## Related
 
-* [Cerebro](http://github.com/KELiON/cerebro) – main repo for Cerebro app;
-* [cerebro tools](http://github.com/KELiON/cerebro-tools) – package with tools to simplify package creation;
+* [Cerebro](http://github.com/cerebroapp/cerebroapp) – main repo for Cerebro app;
+* [cerebro tools](http://github.com/cerebroapp/cerebro-tools) – package with tools to simplify package creation;
 
 ## License
 

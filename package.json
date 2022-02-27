@@ -1,6 +1,6 @@
 {
   "name": "cerebro-basic-apps",
-  "version": "1.0.12",
+  "version": "1.1.0",
   "description": "Basic plugin for search and launch applications  with Cerebro app",
   "license": "MIT",
   "repository": "cerebroapp/cerebro-basic-apps",

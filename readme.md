@@ -1,6 +1,6 @@
 # cerebro-basic-apps
 
-> Basic plugin for search and launch applications  with [Cerebro app](http://www.cerebroapp.com)
+> Basic plugin for search and launch applications  with [Cerebro app](https://www.cerebroapp.com)
 
 Note: on MacOS preferred plugin is `cerebro-mac-apps`.
 
@@ -17,9 +17,9 @@ Search for any application on your machine.
 
 ## Related
 
-* [Cerebro](http://github.com/cerebroapp/cerebroapp) – main repo for Cerebro app;
-* [cerebro tools](http://github.com/cerebroapp/cerebro-tools) – package with tools to simplify package creation;
+* [Cerebro](https://github.com/cerebroapp/cerebroapp) – main repo for Cerebro app;
+* [cerebro tools](https://github.com/cerebroapp/cerebro-tools) – package with tools to simplify package creation;
 
 ## License
 
-MIT © [Alexandr Subbotin](http://asubbotin.ru)
+MIT © [Alexandr Subbotin](https://asubbotin.ru)

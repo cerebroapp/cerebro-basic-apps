@@ -21,7 +21,7 @@ export const PATTERNS = [
 
 export const EXTENSIONS = ['prefPane', 'app']
 
-export const openApp = (app) => shell.openItem(app.source)
+export const openApp = (app) => shell.openPath(app.source)
 
 export const toString = (app) => `${app.name} ${app.filename} ${getAbbr(app.name)}`
 

@@ -1,4 +1,4 @@
-import { remote } from 'electron'
+import remote from '@electron/remote'
 import path from 'path'
 import fs from 'fs'
 import uniq from 'lodash/uniq'

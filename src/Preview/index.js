@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
 import FileDetails from './FileDetails'
 import styles from './styles.css'
-import { SmartIcon } from 'cerebro-ui'
+import { SmartIcon } from '@cerebroapp/cerebro-ui'
 
 const Preview = ({ path, name, icon }) => (
   <div>

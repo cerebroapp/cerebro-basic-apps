@@ -1,13 +1,13 @@
-import remote from '@electron/remote'
 import path from 'path'
 import fs from 'fs'
 import uniq from 'lodash/uniq'
 import flatten from 'lodash/flatten'
 import getAbbr from './getAbbr'
+import os from 'os'
 import { shellCommand } from 'cerebro-tools'
 
 let appDirs = [
-  path.join(remote.app.getPath('home'), '.local', 'share'),
+  path.join(os.homedir(), '.local', 'share'),
   path.join('/usr', 'share'),
   path.join('/usr', 'share', 'ubuntu'),
   path.join('/usr', 'share', 'gnome'),

@@ -23,9 +23,9 @@ const parseFile = (filePath) => {
 export const PATTERNS = []
 
 export const DIRECTORIES = [
-  USERPROFILE && `${USERPROFILE}\\Desktop\\`,
-  APPDATA && `${APPDATA}\\Microsoft\\Windows\\Start Menu\\Programs\\`,
-  ProgramData && `${ProgramData}\\Microsoft\\Windows\\Start Menu\\Programs\\`
+  path.join(USERPROFILE, 'Desktop'),
+  path.join(APPDATA, 'Microsoft', 'Windows', 'Start Menu', 'Programs'),
+  path.join(ProgramData, 'Microsoft', 'Windows', 'Start Menu', 'Programs')
 ].filter(dir => !!dir)
 
 export const EXTENSIONS = ['lnk', 'exe']

@@ -38,7 +38,7 @@
     "rimraf": "3.0.2"
   },
   "dependencies": {
-    "@cerebroapp/cerebro-ui": "1.0.2",
+    "@cerebroapp/cerebro-ui": "1.0.3",
     "cerebro-tools": "0.1.8",
     "du": "1.0.0",
     "electron": "19.0.6",

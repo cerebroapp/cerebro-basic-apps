@@ -998,10 +998,10 @@
     webpack "5.73.0"
     webpack-cli "4.10.0"
 
-"@cerebroapp/cerebro-ui@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@cerebroapp/cerebro-ui/-/cerebro-ui-1.0.2.tgz#5abcf526cae885b18f9ed176be1cbf0283338a33"
-  integrity sha512-xisUK8W4XJ3Kb7/qBAifMX0jBDNcSc+DRgggiOCAo4e2mZ3MpDpZOSSZZxiOOW0yC3w1C92tvXSRcojm2z6E9Q==
+"@cerebroapp/cerebro-ui@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@cerebroapp/cerebro-ui/-/cerebro-ui-1.0.3.tgz#97af7ac972a214258dcf0facb0f475e70bfdefe3"
+  integrity sha512-u4G0xJEJvjSLxo/LmXNE5FKsAzvxOH7MtWXL127pd5M3PfGs8bgtz+ieOvb3QHC9x0fH0+pBfdF+O5O68mwz/Q==
   dependencies:
     "@electron/remote" "2.0.8"
     cerebro-tools "0.1.8"

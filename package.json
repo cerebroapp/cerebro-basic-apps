@@ -1,6 +1,6 @@
 {
-  "name": "cerebro-basic-apps",
-  "version": "1.1.0",
+  "name": "@cerebroapp/cerebro-basic-apps",
+  "version": "1.0.0-alpha.1",
   "description": "Basic plugin for search and launch applications  with Cerebro app",
   "license": "MIT",
   "repository": "cerebroapp/cerebro-basic-apps",
@@ -10,10 +10,11 @@
     "url": "asubbotin.ru"
   },
   "contributors": [
-    "Gustavo Pereira"
+    "Gustavo Pereira",
+    "David Jiménez <dubisdev@gmail.com> (https://dubis.dev)"
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=16"
   },
   "scripts": {
     "start": "cerebro-scripts start",
@@ -22,6 +23,9 @@
     "prepublish": "rimraf ./dist && npm run build"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "cerebro",
     "cerebro-extracted-plugin",
@@ -30,12 +34,14 @@
     "applications"
   ],
   "devDependencies": {
-    "cerebro-scripts": "^0.0.25",
-    "rimraf": "^3.0.2"
+    "@cerebroapp/cerebro-scripts": "1.0.0-alpha.6",
+    "rimraf": "3.0.2"
   },
   "dependencies": {
-    "cerebro-tools": "^0.1.0",
-    "cerebro-ui": "^0.0.16",
-    "du": "^1.0.0"
+    "@cerebroapp/cerebro-ui": "1.0.3",
+    "cerebro-tools": "0.1.8",
+    "du": "1.0.0",
+    "electron": "19.0.6",
+    "lodash": "4.17.21"
   }
 }
